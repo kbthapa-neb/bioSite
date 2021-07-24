@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+	margin: 2px;
+}
+
+header {
+    background-color: #361959;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #642EA7;
+    border-bottom: 15px solid #D99138;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header h1 { padding-center: 220px;
+          padding-top: 40px;
+          margin: 0;
+}
